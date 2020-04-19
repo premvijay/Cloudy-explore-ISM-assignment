@@ -1,0 +1,20 @@
+black body, T = 40000 K radius = 12.113943
+CMB
+hden = 2
+init file="ism.ini"
+#abundance ism.abn
+abund he -1 C-3.6576 N-4.39794 O-3.481146 ne-4.30103 mg-8 
+continue si-8 s-5.04576 cl=-7 ar-8 fe-8
+sphere
+radius = 18.477121
+set temperature floor 1000 
+stop temperature 100K
+stop efrac -3
+database h-like element hydrogen levels resolved 10
+iterate
+print lines emergent off 
+print column densities 
+print line optical depths 
+save overview last ".ovr"
+save linelist ".lin" "LineList_HII.dat" last no hash column table lines "LineList_HII.dat"
+table lines "LineList_HII.dat"
