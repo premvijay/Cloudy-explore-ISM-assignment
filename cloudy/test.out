@@ -1637,7 +1637,7 @@ S  2      6716.44A  -19.243    0.0021      Ne 4      135.720A  -17.359    0.1633
    <a>:3.12E-05  erdeFe2.8E+21  Tcompt6.11E+05  Tthr9.08E+07  <Tden>: 1.00E+04  <dens>:2.38E-20  <MolWgt>6.24E-01
      Mean Jeans  l(cm)5.13E+19  M(sun)8.48E+05  smallest:     len(cm):5.13E+19  M(sun):8.48E+05  a_ox tran: -1.41
  Rion:1.000E+30  Dist:0.00E+00  Diam:0.000E+00
- Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime     8.8
+ Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime     5.7
  ConvrgError(%)  <eden>  0.008  MaxEden  0.010  <H-C>  84.19  Max(H-C)   84.20  <Press>   0.000  MaxPrs er  0.000
   Continuity(%)  chng Te   0.0  elec den   0.0  n(H2)    0.0  n(CO)        0.0
 
@@ -1934,7 +1934,7 @@ S  2      6716.44A  -19.243    0.0021      Ne 4      135.720A  -17.359    0.1633
          1 mean step length searches/chemistry step
 ----------------------------------------------------
 
-=============Results of monitors: Cloudy 17.01 Sun Apr 19 12:13:16 2020
+=============Results of monitors: Cloudy 17.01 Sun Apr 19 19:53:00 2020
  No errors were found.  Summary follows.
                    Label         line    computed     asserted Rel Err Set err  type         
  ChkMonitor        HYDR             1    -3.0514 =    -3.0520  -0.001   0.050            
@@ -1950,7 +1950,7 @@ S  2      6716.44A  -19.243    0.0021      Ne 4      135.720A  -17.359    0.1633
  ChkMonitor        O  3      5006.84A     3.1989 =     3.2070   0.003   0.050   intr     
  ChkMonitor        htot             0   -15.0154 =   -15.0190  -0.008   0.050            
  
- Cloudy compiled on Apr  7 2020 in OS Linux (AMD64) using the g++ 70500 compiler. Mode I32LP64, denormalized float: F double: F.
+ Cloudy compiled on Apr 19 2020 in OS Linux (AMD64) using the g++ 40407 compiler. Mode I32LP64, denormalized float: F double: F.
 
- Cloudy ends: 2 zones, 1 iteration. (single thread) ExecTime(s) 8.86
+ Cloudy ends: 2 zones, 1 iteration. (single thread) ExecTime(s) 5.69
  [Stop in cdMain at maincl.cpp:470, Cloudy exited OK]
