@@ -538,7 +538,7 @@ Ca A      1.28180m   36.483    0.1481      He 1      5047.64A   34.458    0.0014
    <a>:1.90E-08  erdeFe0.0E+00  Tcompt9.55E+08  Tthr3.14E+11  <Tden>: 7.81E+03  <dens>:2.35E-22  <MolWgt>6.55E-01
      Mean Jeans  l(cm)3.18E+20  M(sun)1.99E+06  smallest:     len(cm):1.14E+20  M(sun):9.10E+04  a_ox tran:  0.00
  Rion:1.461E+19  Dist:0.00E+00  Diam:0.000E+00
- Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime    44.0
+ Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime    43.6
  ConvrgError(%)  <eden>  0.075  MaxEden  0.990  <H-C>  25.45  Max(H-C)   99.89  <Press>   0.000  MaxPrs er  0.000
   Continuity(%)  chng Te   8.6  elec den   6.2  n(H2)    0.0  n(CO)        0.0
 
@@ -1195,7 +1195,7 @@ Ca A      1.09380m   36.218    0.0803      He 1      3926.41A   34.602    0.0019
    <a>:1.90E-08  erdeFe0.0E+00  Tcompt9.55E+08  Tthr3.14E+11  <Tden>: 7.81E+03  <dens>:2.35E-22  <MolWgt>6.54E-01
      Mean Jeans  l(cm)3.18E+20  M(sun)1.99E+06  smallest:     len(cm):1.14E+20  M(sun):9.10E+04  a_ox tran:  0.00
  Rion:1.460E+19  Dist:0.00E+00  Diam:0.000E+00
- Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime    84.9
+ Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime    83.2
  ConvrgError(%)  <eden>  0.071  MaxEden  0.883  <H-C>  24.33  Max(H-C)   99.88  <Press>   0.000  MaxPrs er  0.000
   Continuity(%)  chng Te   8.7  elec den   5.5  n(H2)    0.0  n(CO)        0.0
 
@@ -1622,5 +1622,5 @@ S  5      912.545A  4.28e+00  2.11e-14
 lines_table checking lines within data table LineList_HII.dat
 lines_table found all lines
 
- Cloudy ends: 308 zones, 2 iterations, 1 caution. (single thread) ExecTime(s) 84.87
+ Cloudy ends: 308 zones, 2 iterations, 1 caution. (single thread) ExecTime(s) 83.20
  [Stop in cdMain at maincl.cpp:470, Cloudy exited OK]

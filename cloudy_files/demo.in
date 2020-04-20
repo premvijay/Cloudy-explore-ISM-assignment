@@ -16,5 +16,5 @@ print lines emergent off
 print column densities 
 print line optical depths 
 save overview last ".ovr"
-save linelist ".lin" "LineList_HII.dat" last no hash column table lines "LineList_HII.dat"
+save linelist ".lin" "LineList_HII.dat" last no hash column
 table lines "LineList_HII.dat"
