@@ -16,6 +16,6 @@ print lines emergent off
 print column densities
 print line optical depths
 plot continuum range .1
-save overview last "hii_dummy.ovr"
-save linelist "hii_dummy.lin" "LineList_HII.dat" last no hash column
+save overview last ".ovr"
+save linelist ".lin" "LineList_HII.dat" last no hash column
 table lines "LineList_HII.dat"
