@@ -1,0 +1,23 @@
+set save prefix "toy_T=4.0000e+04_hden=2.00_ISM"
+black body, T = 4.0000e+04 K radius = 12.113943
+CMB
+hden = 2.00
+init file="ism.ini"
+abundances ISM
+radius = 18.477121
+sphere
+set temperature floor 1000
+stop temperature 100K
+stop efrac -3
+database h-like element hydrogen levels resolved 10
+iterate
+normalize to "Ca B" 4861.36A
+print lines emergent off
+print column densities
+print line optical depths
+plot continuum range .1
+save overview last ".ovr"
+save last element hydrogen ".ele_H"
+save last element helium ".ele_He"
+save linelist ".lin" "LineList_HII.dat" last no hash column
+table lines "LineList_HII.dat"
